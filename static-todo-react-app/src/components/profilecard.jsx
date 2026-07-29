@@ -1,4 +1,4 @@
-export default function ProfileCard() {
+export default function ProfileCard({ name, age, bio }) {
     return (
         <div className="profile-card">
             <h2>Name: {name}</h2>
