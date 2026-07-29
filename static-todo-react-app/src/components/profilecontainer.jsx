@@ -1,4 +1,4 @@
-import ProfileCard from "./ProfileCard";
+import ProfileCard from "./profilecard";
 
 export default function ProfileContainer() {
     return (
