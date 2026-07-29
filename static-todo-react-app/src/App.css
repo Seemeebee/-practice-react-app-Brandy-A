@@ -1,0 +1,56 @@
+./* Centers everything on the page */
+
+.app {
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Styles the heading */
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+/* Uses Flexbox to align the cards */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* Styles each profile card */
+
+.profile-card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+/* Adds spacing */
+
+.profile-card p {
+    margin: 10px 0;
+}
+
+
+/* Adds a hover effect */
+
+.profile-card:hover {
+    background-color: lightgray;
+}
+
+/* Adds a background color and padding to the app */
+
+.app {
+    text-align: center;
+    padding: 30px;
+    background-color: lightpink;
+    min-height: 100vh;
+}
