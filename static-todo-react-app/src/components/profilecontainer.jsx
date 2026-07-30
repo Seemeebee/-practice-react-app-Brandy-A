@@ -15,6 +15,7 @@ export default function ProfileContainer() {
                 name="Shawn"
                 age="30"
                 bio="A passionate developer."
+                
             />
               <ProfileCard
                 name="Ayla"
